@@ -53,5 +53,10 @@ final List<Movie> sampleMovies = [
     cast: ['Daniel Radcliffe', 'Rupert Grint', 'Emma Watson'],
     synopsis: 'An orphaned 11-year-old boy discovers he is a wizard and attends Hogwarts School of Witchcraft and Wizardry',
   ),
-  // Add 3+ more movies…
+  Movie(
+    title: 'The Devil Wears Prada',
+    posterPath: 'assets/images/devil.jpg',
+    cast: ['Meryl Streep', 'Anne Hathaway', 'Stanley Tucci', 'Emily Blunt'],
+    synopsis: 'Andy Sachs, a college graduate lands a job as the junior assistant to Miranda Priestly, the ruthless and demanding editor-in-chief of Runway magazine',
+  ), // Add 3+ more movies…
 ];
