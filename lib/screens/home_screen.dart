@@ -19,6 +19,7 @@ class HomeScreen extends StatelessWidget {
         itemBuilder: (context, index) {
           final movie = sampleMovies[index];
           return Card(
+            margin: const EdgeInsets.symmetric(vertical: 6.0),
             child: ListTile(
               leading: Image.asset(
                 movie.posterPath,

@@ -17,9 +17,9 @@ class DetailsScreen extends StatelessWidget {
             // Hero poster
             Image.asset(
               movie.posterPath,
-              height: 220,
+              height: 300,
               width: double.infinity,
-              fit: BoxFit.cover,
+              fit: BoxFit.contain,
             ),
             // Title, cast, synopsis…
             Padding(
